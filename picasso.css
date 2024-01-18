@@ -1,0 +1,172 @@
+.box {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .blue {
+    width: 50em;
+    height: 10em;
+    background-image: url(stars-image.avif);
+    margin: .5em;
+    background-size: contain;
+  }
+
+ .back {
+    background-image: url(nightsky-desert.jpg);
+    background-size: cover;
+    height: 45em;
+    margin: .5em;
+    z-index: -1;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+ }
+
+ .people {
+    background-image: url(osiris-god.jpg);
+    background-size: contain;
+    border-style: solid;
+    border-radius: 125%;
+    display: flex;
+    justify-content: left;
+    width: 11em;
+    height: 14em;
+    z-index: 5;
+    margin: 1.5em;
+ }
+
+
+ .tall {
+    width: 400px;
+    height: 600px;
+    background-image: url(pyramid-close.jpg) ;
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+    background-size: contain;
+    z-index: 2;
+    position: absolute;
+    margin-left: 65%;
+  }
+
+  .short {
+    width: 300px;
+    height: 400px;
+    background-image: url(pyramid-short.jpg) ;
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+    background-size: contain;
+    z-index: 3;
+    margin-left: 25%;
+  }
+    
+ 
+ 
+
+ .base {
+    border-style: solid;
+    margin: 1em .5em;
+    height: 4em;
+    background-image: url(scorpion-desert.jpg);
+    background-size: contain;
+ }
+
+ input {
+    display:block;
+    margin: .5em;
+ }
+
+ #money {
+    display: inline;
+    margin: .5em;
+ }
+
+ label {
+    margin: .5em;
+ }
+
+ button {
+    display: block;
+    margin: .5em;
+ }
+
+ .circle1 {
+    border-radius: 50%;
+    width: 3.5em;
+    height: 3.5em;
+    background-image: url(full-moon.jpg);
+    clip-path: polygon(50% 5%, 61% 40%, 98% 40%, 68% 62%, 79% 96%, 50% 75%, 21% 96%, 32% 62%, 2% 40%, 39% 40%);
+    background-size:cover;
+    position: absolute;
+    margin-left: 5em;
+    top: 2em;
+    z-index: 2;
+    
+ }
+
+ .circle2 {
+    border-radius: 50%;
+    width: 3.5em;
+    height: 3.5em;
+    background-image: url(full-moon.jpg);
+    clip-path: polygon(50% 5%, 61% 40%, 98% 40%, 68% 62%, 79% 96%, 50% 75%, 21% 96%, 32% 62%, 2% 40%, 39% 40%);
+    background-size:cover;
+    position: absolute;
+    margin-left: 5em;
+    top: 9em;
+    z-index: 2;
+ }
+
+ .circle3 {
+    border-radius: 50%;
+    width: 3.5em;
+    height: 3.5em;
+    background-image: url(full-moon.jpg);
+    clip-path: polygon(50% 5%, 61% 40%, 98% 40%, 68% 62%, 79% 96%, 50% 75%, 21% 96%, 32% 62%, 2% 40%, 39% 40%);
+    background-size:cover;
+    position: absolute;
+    margin-left: 40em;
+    top: 4em;
+    z-index: 2;
+ }
+
+ .circle4 {
+    border-radius: 50%;
+    width: 3.5em;
+    height: 3.5em;
+    background-image: url(full-moon.jpg);
+    clip-path: polygon(50% 5%, 61% 40%, 98% 40%, 68% 62%, 79% 96%, 50% 75%, 21% 96%, 32% 62%, 2% 40%, 39% 40%);
+    background-size:cover;
+    position: absolute;
+    margin-left: 25em;
+    top: 15em;
+    z-index: 2;
+ }
+
+ .big1 {
+    border-radius: 50%;
+    width: 8em;
+    height: 8em;
+    background-image: url(sun-image.jpg);
+    background-size: cover;
+    position: absolute;
+    margin-left: 18em;
+    top: 4em;
+    z-index: 1;
+ }
+ .big2 {
+    border-radius: 50%;
+    width: 8em;
+    height: 8em;
+    background-image: url(sun-image.jpg);
+    background-size: cover;
+    position: absolute;
+    margin-left: 33em;
+    top: 8em;
+    z-index: 2;
+ }
+
+ .system {
+    display: flex;
+
+ }
+
+ 
